@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header {
+    width: 1440px;
+    height: 96.18px;
+    border-top: 8px solid #ff7500;
+}
+
+.site-nav {
+    display: inline-block;
+}
+
+.header-brand {
+    width: 227px;
+    height: 59.18px;
+    position: relative;
+    left: 60px;
+    vertical-align: middle;
+}
+
+.nav-list {
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    width: 610px;
+    height: 39px;
+    color: #000;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.menu {
+    border-bottom: 4px solid #ff7500;
+    width: 92px;
+    height: 15px;
+    padding-bottom: 2px;
+}
+.menu:hover{
+    color: #ff7500;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+.items{
+    position: relative;
+    right: 50px;
+    margin-left: 10px;
+}
+
+.sign-in {
+    background-color: #ff7500;
+    border-radius: 4px;
+    width: 155px;
+    height: 39px;
+    padding: 12px 24px;
+    text-transform: capitalize;
+    color: #fff;
+    position: relative;
+    right: 30px;
+}
+.sign-in:active {
+    opacity: 0.5;
+}
